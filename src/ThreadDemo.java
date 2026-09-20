@@ -8,7 +8,7 @@ public class ThreadDemo {
 
         for(int i =0; i< threads.length ; i++) {
            int id = i+1;
-            threads[i] = new NewThread(target, " "+ (i+1) +"-Thread", id);
+            threads[i] = new NewThread(target, " "+ (i+1) +"- Thread", id);
         }
 
         for(NewThread nt : threads) {

@@ -1,3 +1,7 @@
+/**
+Class Callme has synchronized method that prints given name until
+ given id reaches thread limit
+ */
 public class Callme {
     int activeThread = 1;
     int count = 1;

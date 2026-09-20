@@ -1,3 +1,5 @@
+
+//TODO rename this class
 public class NewThread implements Runnable{
     Callme target;
     String name;
